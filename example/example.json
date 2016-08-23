@@ -9,7 +9,7 @@
         "margin-bottom": "0.0px",
         "margin-left": "0.0px",
         "encoding": "UTF-8",
-        "javascript-delay": 3000,
+        "javascript-delay": 5000,
         "no-pdf-compression": ""
     },
     "markdown_extensions": [
