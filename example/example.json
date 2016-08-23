@@ -1,0 +1,32 @@
+{
+    "input": ["source.md"],
+    "output": "output.pdf",
+    "options": {
+        "page-size": "A4",
+        "orientation": "Landscape",
+        "margin-top": "0.0px",
+        "margin-right": "0.0px",
+        "margin-bottom": "0.0px",
+        "margin-left": "0.0px",
+        "encoding": "UTF-8",
+        "javascript-delay": 3000,
+        "no-pdf-compression": ""
+    },
+    "markdown_extensions": [
+        "markdown.extensions.fenced_code",
+        "markdown.extensions.footnotes",
+        "markdown.extensions.tables",
+        "markdown.extensions.codehilite",
+        "markdown.extensions.smart_strong",
+        "markdown.extensions.nl2br",
+        "markdown.extensions.smarty"
+    ],
+    "markdown_config": {
+        "markdown.extensions.codehilite": {
+            "guess_lang": true
+        }
+    },
+    "prepare_files": [],
+    "prepare_folders": ["fonts"],
+    "no_mathjax_auto_delay": 100
+}
